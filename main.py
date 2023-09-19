@@ -1,5 +1,5 @@
 from cumple import calcularCumple
 
-segundos = calcularCumple(2023, 11, 29)
+minutos = calcularCumple(2023, 11, 29)
 
-print("Los segundos que faltan para mi cumpleaños son: ", segundos)
+print("Los minutos que faltan para mi cumpleaños son: ", minutos)
