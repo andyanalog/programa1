@@ -1,10 +1,5 @@
-from datetime import datetime
+from cumple import calcularCumple
 
-tiempoActual = datetime.now()
+segundos = calcularCumple(2023, 11, 29)
 
-miCumple = datetime(2022,11,29)
-
-tiempoFalta = miCumple-tiempoActual
-
-print(tiempoFalta.days *60*60*24 + tiempoFalta.seconds)
-
+print("Los segundos que faltan para mi cumpleaños son: ", segundos)
